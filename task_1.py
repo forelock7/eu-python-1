@@ -1,9 +1,10 @@
+import math
+
 # # Task 1.1
 # a = 'Hello, World'
 # print(a)
 # a = 'By, Human being'
 # print(a)
-import math
 
 # # Task 1.2
 # name = 'Volodymyr'
@@ -33,13 +34,13 @@ import math
 # print("1/1")
 # print("app. 1")
 
-# # Task 1.6
-# distance = int(input('Please enter the distance: '))
-# print('{:.2f} km(s)'.format(distance))
-# print('{:.2f} inches'.format(distance * 39370.0787))
-# print('{:.2f} feet'.format(distance * 3280.8399))
-# print('{:.2f} miles'.format(distance * 0.621371192))
-# print('{:.2f} yards'.format(distance * 1093.6133))
+# Task 1.6
+distance = int(input('Please enter the distance: '))
+print('{:.2f} km(s)'.format(distance))
+print('{:.2f} inches'.format(distance * 39370.0787))
+print('{:.2f} feet'.format(distance * 3280.8399))
+print('{:.2f} miles'.format(distance * 0.621371192))
+print('{:.2f} yards'.format(distance * 1093.6133))
 
 # # Task 1.7
 # conference_beginning = int(input("Please enter calendar day of the conference beginning: "))
