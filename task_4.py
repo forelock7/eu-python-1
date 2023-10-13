@@ -1,4 +1,4 @@
-
+import math
 
 # # Task 4.1
 # users = ['Admin', 'Designer', 'Viewer']
@@ -12,7 +12,6 @@
 #             print(f'Hello {user}, thank you for logging in again.')
 # else:
 #     print('We need to find some users!')
-import math
 
 # # Task 4.2
 # side_number = int(input("Please type number from 3 to 6 of sides to find out the figure: "))
