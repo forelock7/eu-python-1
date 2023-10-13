@@ -255,11 +255,33 @@ import math
 # i = 0
 # while i < limit:
 #     i += 1
+#     random_number = random.randint(a, b)
 #     num = int(input(f"Guess number from {a} to {b} including: "))
 #     if random_number == num:
 #         print("Congratulations! You are right!")
 #         break
 #     else:
-#         print(f"Incorrect. Please try again. Left {limit - i} chances")
+#         print(f"Incorrect. Please try again. It was '{random_number}'. Left {limit - i} chances")
 
-# Task 4.19
+# # Task 4.19
+# import random
+# limit = 3
+# game_items = ('stone', 'scissors', 'paper')
+#
+# def get_random_thing(items):
+#     return random.choice(items)
+#
+# def get_dict_from_tuple(items):
+#     return {index: word for index, word in enumerate(items)}
+#
+# i = 0
+# items_dict = get_dict_from_tuple(game_items)
+# while i < limit:
+#     i += 1
+#     user_choice = items_dict.get(int(input(f"Guess word from {items_dict} by index: ")))
+#     program_choice = get_random_thing(game_items)
+#     if user_choice == program_choice:
+#         print("Congratulations! You WON!")
+#         break
+#     else:
+#         print(f"Incorrect. Please try again. It was '{program_choice}'. Left {limit - i} chances")
