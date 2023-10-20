@@ -1,0 +1,3 @@
+What's your birthday?: 1986-06-16
+What day of the week were you born on?: Monday
+When will you be 13330 days since birth?: 2022-12-14
